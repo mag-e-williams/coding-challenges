@@ -1,0 +1,20 @@
+
+/*  */
+
+.app {
+    padding: '20px'
+}
+
+
+.row p, .collapseButton {
+    display: inline-block;
+}
+
+p {
+    line-height: 1px;
+    padding-right: 5px;
+}
+
+.jsonText {
+    padding-left: 25px;
+}
