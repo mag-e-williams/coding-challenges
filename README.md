@@ -1,4 +1,4 @@
-# hackerrank-react-challenges
+# Coding Challenges
 
 some completed HackerRank React coding challenges
 
