@@ -1,6 +1,6 @@
 # React: JSON Editor
 
-https://json-editor-jdan.vercel.app/
+demo of expected behavior and JSON input https://json-editor-jdan.vercel.app/
 
 ## Environment
 
