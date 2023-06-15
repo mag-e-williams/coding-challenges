@@ -34,10 +34,10 @@ class Spreadsheet {
         let valueTotal = 0;
         cells.forEach(e => {
             if (isNumber(e)) {
-            valueTotal += Number(e)
+                valueTotal += Number(e)
             } else {
-            const spreadsheetVal = this.getCell(e);
-            valueTotal += Number(spreadsheetVal)
+                const spreadsheetVal = this.getCell(e);
+                valueTotal += Number(spreadsheetVal)
             }
         }) 
             return valueTotal
