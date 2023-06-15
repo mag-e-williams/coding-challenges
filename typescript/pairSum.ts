@@ -34,6 +34,7 @@ function pairSum(arr: number[], target: number) {
 console.log(pairSum(a1, 0))
 console.log(pairSum(a2, -2))
 
+
 // Optimized Approach, O(N)
 function pairSumOptimized(arr: number[], target: number) {
   let visited: {[key: string]: number} = {};
@@ -49,7 +50,6 @@ function pairSumOptimized(arr: number[], target: number) {
   }
   return false
 }
-
 
 console.log(pairSumOptimized(a1, 0))
 console.log(pairSumOptimized(a2, -2))
