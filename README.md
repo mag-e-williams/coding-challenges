@@ -17,7 +17,8 @@ some completed HackerRank React coding challenges
 
 #### [Typescript](./typescript)
 
+- [Pair Sum](./typescript/pairSum.ts)
 - [Spreadsheet](./typescript/spreadsheet.ts)
-- [WorkerReferrals](./typescript/workerReferrals.ts)
-- [WordleChecker](./typescript/wordleChecker.ts)
-- [WorkerScheduling](./typescript/workerScheduling.ts)
+- [Worker Referrals](./typescript/workerReferrals.ts)
+- [Wordle Checker](./typescript/wordleChecker.ts)
+- [Worker Scheduling](./typescript/workerScheduling.ts)
