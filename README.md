@@ -17,7 +17,7 @@ some completed HackerRank React coding challenges
 
 #### [Typescript](./typescript)
 
-- [Spreasheet](./typescript/spreadsheet.ts)
+- [Spreadsheet](./typescript/spreadsheet.ts)
 - [WorkerReferrals](./typescript/workerReferrals.ts)
 - [WordleChecker](./typescript/wordleChecker.ts)
 - [WorkerScheduling](./typescript/workerScheduling.ts)
