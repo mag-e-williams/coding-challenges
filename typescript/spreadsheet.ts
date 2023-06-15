@@ -11,50 +11,49 @@ Cell values are set with strings containing either a formula or number, formatte
 
 function isNumber(s: string) {
     return !isNaN(Number(s))
-  }
+}
   
-  class Spreadsheet {
+class Spreadsheet {
     spreadsheet: {[key: string]: string} = {};
   
     constructor() {
-      this.spreadsheet = {};
+        this.spreadsheet = {};
     }
   
     setCell(cell: string, value: string) {
-      this.spreadsheet[cell] = value;
+        this.spreadsheet[cell] = value;
     }
   
     getCell(cell: string) {
-      let value = this.spreadsheet[cell];
-  
-      if (value == undefined) return ''; 
-  
-      else if (value.includes('=')) {
+        let value = this.spreadsheet[cell];
+
+        if (value == undefined) return ''; 
+
+        else if (value.includes('=')) {
         const cells = value.slice(1).split('+');
         let valueTotal = 0;
         cells.forEach(e => {
-          if (isNumber(e)) {
+            if (isNumber(e)) {
             valueTotal += Number(e)
-          } else {
+            } else {
             const spreadsheetVal = this.getCell(e);
             valueTotal += Number(spreadsheetVal)
-          }
+            }
         }) 
-        return valueTotal
-      } else {
-        return Number(value);
-      } 
+            return valueTotal
+        } else {
+            return Number(value);
+        } 
     }
-  }
+}
+
   
-  
-  const spreadsheet = new Spreadsheet()
-  
-  spreadsheet.setCell("A1", "13")
-  spreadsheet.setCell("A2", "1")
-  spreadsheet.setCell("A4", "=A1+A2+12")
-  
-  console.log((spreadsheet.getCell("A1")))
-  console.log((spreadsheet.getCell("A2")))
-  console.log((spreadsheet.getCell("A4")))
-  
+const spreadsheet = new Spreadsheet()
+
+spreadsheet.setCell("A1", "13")
+spreadsheet.setCell("A2", "1")
+spreadsheet.setCell("A4", "=A1+A2+12")
+
+console.log((spreadsheet.getCell("A1")))
+console.log((spreadsheet.getCell("A2")))
+console.log((spreadsheet.getCell("A4")))
