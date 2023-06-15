@@ -30,16 +30,16 @@ class Spreadsheet {
         if (value == undefined) return ''; 
 
         else if (value.includes('=')) {
-        const cells = value.slice(1).split('+');
-        let valueTotal = 0;
-        cells.forEach(e => {
-            if (isNumber(e)) {
-                valueTotal += Number(e)
-            } else {
-                const spreadsheetVal = this.getCell(e);
-                valueTotal += Number(spreadsheetVal)
-            }
-        }) 
+            const cells = value.slice(1).split('+');
+            let valueTotal = 0;
+            cells.forEach(e => {
+                if (isNumber(e)) {
+                    valueTotal += Number(e)
+                } else {
+                    const spreadsheetVal = this.getCell(e);
+                    valueTotal += Number(spreadsheetVal)
+                }
+            }) 
             return valueTotal
         } else {
             return Number(value);
