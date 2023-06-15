@@ -44,7 +44,7 @@
 // }
 
 
-const { shifts, signUps } = require('./data')
+const { shifts, signUps } = require('.utils/data')
 
 const isNewWorker = (workerId) => {
   const workerSignups = signUps.filter((e) => {
