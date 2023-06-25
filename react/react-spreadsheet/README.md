@@ -1,4 +1,4 @@
-# React: Slideshow App
+# React: Spreadsheet App
 
 ## Environment
 

@@ -14,6 +14,7 @@ some completed HackerRank React coding challenges
 - [React Credit Card Validation](./react/react-credit-card-validation)
 - [React Notion Interview Question](./react/react-notion-interview)
 - [React Slideshow App](./react/react-slideshow-app)
+- [React Spreadsheet](./react/react-spreadsheet)
 
 #### [Typescript](./typescript)
 
