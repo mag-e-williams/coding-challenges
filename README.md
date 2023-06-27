@@ -6,7 +6,11 @@ some completed HackerRank React coding challenges
 
 #### [Python](./python)
 
-- [RateLimiter](./python/rateLimiter.py)
+- [Alphabet Board](./python/alphabetBoard.py)
+- [Deserialize JSON](./python/deserializeJson.py)
+- [Event Overlap](./python/eventOverlap.py)
+- [Rate Limiter](./python/rateLimiter.py)
+- [Reduce](./python/reduce.py)
 
 #### [React](./react)
 
