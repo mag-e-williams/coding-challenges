@@ -22,6 +22,7 @@ some completed HackerRank React coding challenges
 
 #### [Typescript](./typescript)
 
+- [Longest Substring](./typescript/longestSubstring.ts)
 - [Pair Sum](./typescript/pairSum.ts)
 - [Spreadsheet](./typescript/spreadsheet.ts)
 - [Worker Referrals](./typescript/workerReferrals.ts)
